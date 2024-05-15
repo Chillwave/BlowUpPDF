@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blow up your PDFs 4x</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Make sure this path is correct -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="https://unpkg.com/pdf-lib"></script>
+</head>
+<body>
+    <h1>Blow up your PDF</h1>
+    <h2>Breaks the pages of a PDF into four equal parts so they can be printed and combined to make it 4x the size</h2>
+    <input type="file" id="pdfInput" accept="application/pdf">
+    <button onclick="splitPdf()">Split PDF</button>
+    <div id="canvas-container" class="canvas-container"></div>
+    <div style="text-align: center;">
+    <a href="https://valdi-via.com/">Chillwave x Valdi-via Research</a>
+    </div>
+    <script src="script.js"></script> <!-- Make sure this path is correct -->
+</body>
+</html>

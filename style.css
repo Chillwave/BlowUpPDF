@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Material Design's base font */
+    padding: 20px;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #212121; /* Material text color for best readability */
+}
+
+h1 {
+    text-align: center;
+    color: #3F51B5; /* A Material Design blue */
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #3F51B5;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: white; /* Add contrast */
+    color: #3F51B5;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input[type="file"]:focus {
+    border-color: #303F9F; /* Darker shade for focus */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #3F51B5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #303F9F; /* Darker shade on hover */
+}
+
+.canvas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+canvas {
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); /* Material Design drop shadow */
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .canvas-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
