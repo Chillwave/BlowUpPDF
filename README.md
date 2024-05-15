@@ -18,4 +18,4 @@ The four quarters can then be combined, either on a project board and a wall to 
 - pdf-lib
 
 ## Access
-Access the live version of the PDF splitter at [PDF Blow Up](pdfblowup.valdi-via.com)
+Access the live version of the PDF splitter at [PDF Blow Up](https://pdfblowup.valdi-via.com)
